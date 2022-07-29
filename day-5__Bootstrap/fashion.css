@@ -1,0 +1,69 @@
+#heading{
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+.filter{
+    display: inline-block;
+    border:2px solid black;
+    width: 25%;
+    height: 600px;
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: rgb(129, 96, 64);
+}
+#select{
+    float: right;
+    width: 60%;
+    height: 600px;
+    /*border: 1px solid black;*/
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(129, 96, 64);
+}
+.choice{
+    border:2px solid black;
+    width: 80%;
+    height: 150px;
+    margin-top: 5px;
+    background-color: rgb(158, 134, 111);
+    text-align: left;
+    color: black;
+}
+
+
+
+.div2{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 20%;
+    height: 400px;
+    /*border: 2px solid red;*/
+}
+    .name:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.div3{
+    
+    width: 100%;
+    height: 220px;
+  
+    /*border: 2px dashed black;*/
+}
+.name{
+    font-size: medium;
+    border: 2px dashed rgb(134, 142, 106);;
+    background-color: rgb(158, 134, 111);
+    color: black;
+    text-align: left;
+}
+.div3>img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+    background-color: aquamarine;
+}
+#head{
+    background-image: url('change.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:400px;
+    font-size: 20px;
+}
+.nvs{
+    display:inline-block;
+    background-color: aliceblue;
+    color: rgb(3, 22, 38);
+    width: 200px;
+    height: 200px;
+    border: 1px dashed blue;
+}
+.nvsk{
+    display:inline-block;
+    background-color: aliceblue;
+    color: rgb(32, 3, 33);
+    width: 200px;
+    height: 200px;
+    border: 1px dashed blue;
+}
+img{
+   
+    width: 200px;
+    height:150px;
+}

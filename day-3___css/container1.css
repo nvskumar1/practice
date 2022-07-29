@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    background-color: blanchedalmond;
+}
+#heading{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.img>img{
+    width: 100%;
+    height: 100%;
+}
+#div1{
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 2px solid violet;
+}
+#div2{
+    float: right;
+    width: 60%;
+    height: 600px;
+    margin-top: 2%;
+    margin-right: 5%;
+    /*border: 2px solid violet;*/
+}
+.div3{
+    display: inline-block;
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+}
+.div3:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 6px 6px violet;
+    cursor: pointer;
+}
+.div4{
+    display: inline-block;
+    /*border: 2px solid black;*/
+    width: 30%;
+    height: 200px;
+}
+.photo img{
+    width: 100%;
+    height: 200px;
+}
+.name{
+    float: right;
+    margin-right: 30%;
+}
